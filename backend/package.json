@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,12 @@
     "express-rate-limit": "^7.5.0",
     "google-auth-library": "^9.15.1",
     "ioredis": "^5.4.2",
-    "mongoose": "^8.9.6"
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "minio": "^8.0.4",
+    "mongoose": "^8.9.6",
+    "nodemailer": "^6.10.0",
+    "winston": "^3.17.0",
+    "winston-transport": "^4.9.0"
   }
 }
