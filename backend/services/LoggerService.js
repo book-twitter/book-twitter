@@ -6,7 +6,7 @@ const fs = require('fs');
 const { randomBytes } = require('crypto');
 const path = require('path');
 const { combine, timestamp, json, printf} = winston.format;
-const filename = path.join(__dirname, '..', 'book-twitter-backend.log') 
+const filename = path.join(__dirname, '..', 'book-verse-backend.log') 
 
 try { 
   fs.unlinkSync(filename); 
